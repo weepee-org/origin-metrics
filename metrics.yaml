@@ -127,11 +127,11 @@ parameters:
 -
   description: "The persistent volume size for each of the Cassandra nodes"
   name: CASSANDRA_PV_SIZE
-  value: "10Gi"
+  value: "50Gi"
 -
   description: "How many days metrics should be stored for."
   name: METRIC_DURATION
-  value: "7"
+  value: "60"
 -
   description: "The identifier used when generating metric ids in Hawkular"
   name: HEAPSTER_NODE_ID
